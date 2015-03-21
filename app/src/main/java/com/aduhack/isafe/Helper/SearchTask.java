@@ -16,7 +16,6 @@ public class SearchTask extends AsyncTask<Void, Void, ArrayList<SearchRowViewMod
 
         HttpManager hm;
        // DataHelper dh;
-       // ReservationModel rm;
         String searchText;
         public SearchTask(String _search) {
 //            dh = new DataHelper(context);
@@ -36,10 +35,6 @@ public class SearchTask extends AsyncTask<Void, Void, ArrayList<SearchRowViewMod
         @Override
         protected void onPostExecute(ArrayList<SearchRowViewModel> result) {
             super.onPostExecute(result);
-//            dh.close();
-//            Toast.makeText(getApplicationContext(), "Your order is being processed, please wait for confirmation! have a nice day!", Toast.LENGTH_SHORT).show();
-//            PD.dismiss();
-//            finish();
         }
 
 

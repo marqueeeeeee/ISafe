@@ -64,27 +64,10 @@ public class SearchAdapter  extends BaseAdapter {
 
 
 
-//set your data here
-//        float hours = Float.parseFloat(_items.get(position).DayRegular.replace(" hrs",""));
-//        _holder.TVbillable.setText(_items.get(position).DayBillable);
-//        _holder.TVovertime.setText(_items.get(position).DayOverTime);
-//        _holder.TVregular.setText(_items.get(position).DayRegular);
-//        _holder.TVtimein.setText(_items.get(position).DayTimeIn);
-//        _holder.TVtimeout.setText(_items.get(position).DayTimeOut);
-//        _holder.TVday.setText(_items.get(position).Day);
-//
-
-
         return view;
     }
 
     private static class ViewHolder  {
-        //    day_button
-//            day_overtime
-//    day_regular
-//            day_billable
-//    day_timeout
-//            day_timein
         public TextView location;
         public TextView details, incidenttv;
         public Button incident_type;
@@ -97,16 +80,6 @@ public class SearchAdapter  extends BaseAdapter {
             details = (TextView)view.findViewById(R.id.details);
             incident_type = (Button)view.findViewById(R.id.incident_type);
             incidenttv = (TextView)view.findViewById(R.id.incident_typeTV);
-//            DayButton  = (ImageButton)view.findViewById(R.id.day_button);
-//            TVovertime = (TextView)view.findViewById(R.id.day_overtime);
-//            TVregular = (TextView)view.findViewById(R.id.day_regular);
-//            TVbillable = (TextView)view.findViewById(R.id.day_billable);
-//            TVtimein = (TextView)view.findViewById(R.id.day_timein);
-//            TVtimeout = (TextView)view.findViewById(R.id.day_timeout);
-//            TVday = (TextView)view.findViewById(R.id.day);
-//
-//            row_layout_bg = (LinearLayout)view.findViewById(R.id.row_layout_bg);
-//            dash = (TextView)view.findViewById(R.id.dash);
 
         }
     }

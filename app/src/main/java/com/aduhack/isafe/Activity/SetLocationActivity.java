@@ -34,7 +34,6 @@ public class SetLocationActivity extends ActionBarActivity {
     private double selflat;
     private double selflong;
     private LocationManager mLocationManager;
-    private static LatLng MEDICARD_LONGLAT = new LatLng(Double.valueOf("14.561059"), Double.valueOf("121.025578"));
 
     private ImageButton searchButton, listButton;
 

@@ -12,7 +12,6 @@ public class FileReportTask extends AsyncTask<Void, Void, String>
 
     HttpManager hm;
     // DataHelper dh;
-    // ReservationModel rm;
     ReportModel report;
     public FileReportTask(ReportModel _report) {
 //            dh = new DataHelper(context);
@@ -31,10 +30,6 @@ public class FileReportTask extends AsyncTask<Void, Void, String>
     @Override
     protected void onPostExecute(String result) {
         super.onPostExecute(result);
-//            dh.close();
-//            Toast.makeText(getApplicationContext(), "Your order is being processed, please wait for confirmation! have a nice day!", Toast.LENGTH_SHORT).show();
-//            PD.dismiss();
-//            finish();
     }
 
 
