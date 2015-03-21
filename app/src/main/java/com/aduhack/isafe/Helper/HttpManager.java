@@ -61,7 +61,7 @@ public class HttpManager {
 
         String result="";
         try{
-            result = EntityUtils.toString(_httpHelper.getResponse(url_search + searchText));
+            result = EntityUtils.toString(_httpHelper.getResponse(url_search + searchText.replace(" ","%20")));
         }catch(IOException e){
             e.printStackTrace();
         }
